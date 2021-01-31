@@ -5,6 +5,6 @@ $(document).ready(function(e){
         e.preventDefault();   
         $('html,body').animate({
             scrollTop:articulo
-        },500);
+        },200);
     });
 });
