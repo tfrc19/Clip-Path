@@ -100,57 +100,6 @@ header .content p{
         color: #ffffff;
     }
 }
-
-@media screen and (max-width:450px){
-    header
-    {
-        
-       max-width: 100%;
-       background-image: url("../img/fondo2.jpg");
-       clip-path: none;
-    }
-    header .content{
-        width: 90%;
-        margin-left: 15px;
-        margin-right: 0px;
-        top:85%;
-        border-left:3px solid#ffffff;
-        border-right: none;
-        
-    }
-    header .content h1{
-        font-size: 26px;
-        font-weight: bold;
-    }
-    header .content p{
-        font-size: 12px;
-    }
-     .redesSociales .contenedor .social-media{
-        display: none;
-    }
-    .redesSociales .contenedor .social-media a{
-        color: #ffffff;
-    }
-    .articulos{
-        margin-top: 30px!important;
-    }
-    .articulos .container .row .card{
-        margin-top: 20px;
-    }
-    .articulos .container .row .card .card-title{
-        text-align: center;
-        font-size: 20px!important;
-        font-weight: bold!important;
-        
-    }
-    .articulos .container .row .card .card-text{
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 14px;
-        text-align: justify;
-        line-height: 25px;
-    }
-}
-
 @media screen and (max-width:1000px){
     header
     {
@@ -207,3 +156,53 @@ header .content p{
         line-height: 25px;
     }
 }
+@media screen and (max-width:450px){
+    header
+    {
+        
+       max-width: 100%;
+       background-image: url("../img/fondo2.jpg");
+       clip-path: none;
+    }
+    header .content{
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 0px;
+        top:85%;
+        border-left:3px solid#ffffff;
+        border-right: none;
+        
+    }
+    header .content h1{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    header .content p{
+        font-size: 12px;
+    }
+     .redesSociales .contenedor .social-media{
+        display: none;
+    }
+    .redesSociales .contenedor .social-media a{
+        color: #ffffff;
+    }
+    .articulos{
+        margin-top: 30px!important;
+    }
+    .articulos .container .row .card{
+        margin-top: 20px;
+    }
+    .articulos .container .row .card .card-title{
+        text-align: center;
+        font-size: 20px!important;
+        font-weight: bold!important;
+        
+    }
+    .articulos .container .row .card .card-text{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 25px;
+    }
+}
+
