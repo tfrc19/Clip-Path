@@ -191,6 +191,9 @@ header .content p{
     .articulos{
         margin-top: 30px!important;
     }
+    .articulos .container{
+        width: 100%!important;
+    }
     .articulos .container .row .card{
         margin-top: 20px;
     }
